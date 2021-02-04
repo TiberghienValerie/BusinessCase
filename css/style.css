@@ -8,9 +8,8 @@ html {
 }
 
 body {
-  font-family: var(--font-family);
-  color: var(--text);
-  font-size: 1.6rem;
+  font-family: var(--font-family) !important;
+  color: var(--text) !important;
 }
 
 p {
@@ -21,9 +20,13 @@ ul {
   list-style: none;
 }
 
-a {
-  color: var --text;
-  text-decoration: none;
+a,
+a:visited,
+a:link,
+a:hover,
+a:active {
+  text-decoration: none !important;
+  color: var(--colorLink) !important;
 }
 
 .title-small {
@@ -210,7 +213,7 @@ main .experience .content ul {
 
 /* Copy Right Footer */
 .footer-copyright {
-  background: rgba(32, 32, 32, 0.15);
+  background: var(--backgroundgrid);
   padding: 5px 0;
 }
 
@@ -259,7 +262,6 @@ main .experience .content ul {
   background: var(--colorbtn) !important;
   border-color: var(--colorbtn) !important;
   border-radius: 30px !important;
-  font-family: Roboto !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-size: 24px !important;
@@ -272,4 +274,15 @@ main .experience .content ul {
   .button {
     text-align: left;
   }
+}
+
+.link {
+  color: var(--colorlink);
+  font-size: 24px;
+}
+
+.linkBold {
+  color: var(--colorlink);
+  font-weight: bold;
+  font-size: 24px;
 }

@@ -3,8 +3,10 @@
   --light: #37a8cc;
   --primary: #37a8cc;
   --dark: #2980b9;
-  --text: #333;
+  --text: black;
   --background: #fafafa;
   --hint: #999;
   --colorbtn: #ff5c5c;
+  --colorlink: #ff5c5c;
+  --backgroundgrid: #20202026;
 }
