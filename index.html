@@ -16,6 +16,35 @@
     <title>Centre'Auto'Ccas </title>
 </head>
 <body>
+
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#tab1" data-toggle="tab">Programme</a></li>
+      <li><a href="#tab2" data-toggle="tab">Public</a></li>
+      <li><a href="#tab3" data-toggle="tab">Objectifs</a></li>
+      <li><a href="#tab4" data-toggle="tab">En complément</a></li>
+    </ul>
+   
+  </div>
+
+  <div class="container">
+    <h1>Navigation</h1>
+    <nav>
+        <ul class="nav flex-column flex-md-row nav-pills">
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab1">Cours Complets</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab2">Articles</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab3">Soutien</a></li>
+            <li class="nav-item"><a class="nav-link " data-toggle="tab" href="#tab4">Contact</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab1">Vous pouvez consulter le détail du programme</div>
+          <div class="tab-pane" id="tab2">Vous pouvez consulter le détail sur le public</div>
+          <div class="tab-pane" id="tab3">Vous pouvez consulter le détail des objectifs pédagogiques</div>
+          <div class="tab-pane" id="tab4">Vous pouvez consulter le détail des compléments</div>
+        </div>
+    </nav>
+</div>
+
     <header> 
         <div class="container-fluid">
             <div class="row">
@@ -41,26 +70,68 @@
         </div>
     </section>
     <main>
-Ceci est à mettre des informations
+
+      
+          <div class="container">
+            <h1>Carrousel</h1>
+            <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">  
+              <!-- Carrousel -->
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="4000">
+                  <img src="img/audi-rs3-25-tfsi-121974821.jpg" alt="Carrousel slide 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                  <img src="img/audi-rs3-25-tfsi-121974822.jpg" alt="Carrousel slide 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-interval="1000">
+                  <img src="img/audi-rs3-25-tfsi-121974823.jpg" alt="Carrousel slide 3" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-interval="1000">
+                  <img src="img/audi-rs3-25-tfsi-121974824.jpg" alt="Carrousel slide 4" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-interval="1000">
+                  <img src="img/audi-rs3-25-tfsi-121974825.jpg" alt="Carrousel slide 5" class="d-block w-100">
+                </div>
+              </div>
+              <!-- Contrôles -->
+              <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Précédent</span>
+              </a>
+              <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Suivant</span>
+              </a>
+            </div>
+          </div>
+
+          
+
+
+
+
+
+
     </main>
 
+   
     <footer id="footer" class="footer-1">   
         <div class="footer-copyright">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4 text-left">
                         
-                            <h5 class="widget-title"><a href="#">Nous contacter !&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qui sommes-nous !  </a>></h5>
+                            <span class="linkBlack widget-title"><a href="#">Nous contacter !&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qui sommes-nous !  </a></span>
                         
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 text-center">
                         
-                            <h5 class="widget-title">Mentions lègales / CGU</h5>
+                            <span class="linkBlack widget-title">Mentions lègales / CGU</span>
                         
                     </div>   
                     <div class="col-xs-12 col-sm-6 col-md-4 text-right">
                         
-                            <h5 class="widget-title">Centre'Auto'Ccas <i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2021</h5>
+                            <span class="linkBlack widget-title">Centre'Auto'Ccas <i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2021</span>
                    
                     </div>        
                 </div>
